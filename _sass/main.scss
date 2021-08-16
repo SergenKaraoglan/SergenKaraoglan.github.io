@@ -1,0 +1,13 @@
+$defheight: 960px;
+body{
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    max-width: $defheight;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    display: grid;
+    gap: 10px;
+}
+header{    
+    text-align: center;
+}

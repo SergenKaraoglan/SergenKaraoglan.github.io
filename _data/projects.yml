@@ -1,0 +1,29 @@
+- name: trex
+  title: T-Rex Runner + Deep Learning
+  technologies:
+    - Javascript
+    - HTML
+    - CSS
+    - Tensorflow.js
+  description: 
+    A deep learning project that allows the user to tweak and train a neural network 
+    using a GUI that can then be used to play T-rex runner with a touchless interface.
+  demo: true
+
+- name: reaction_timer
+  title: Reaction timer
+  technologies:
+    - Javascript
+    - HTML
+    - CSS
+  description: A simple project that tests reaction speed and records average and best score.
+  demo: true
+
+- name: math_benchmark
+  title: math benchmark
+  technologies:
+    - Javascript
+    - HTML
+    - CSS
+  description:
+  demo: true

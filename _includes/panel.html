@@ -1,0 +1,21 @@
+<div class = "wrapper">
+    {% for project in site.data.projects %}
+        <div class = "card">
+            <div class = "image"><img src="assets/images/{{project.name}}.png" alt = "project icon"></div>
+            <div class = "title"> <h3>{{project.title}}</h3> </div>
+            <div class = "description"> {{project.description}} </div>
+            <div class = "technologies">
+                {% for technology in project.technologies %}
+                    <span class = "technology">{{technology}}</span>
+                {% endfor %}
+            </div>
+            
+            <div class = "links">
+                <a href = "https://github.com/SergenKaraoglan/{{project.name}}" rel="noopener" target="_blank">View on Github</a>
+                {% if project.demo %}
+                    <a href = "{{project.name}}" target = "_blank">Demo</a>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

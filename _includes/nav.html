@@ -1,0 +1,5 @@
+<nav class="nav">
+    {% for item in site.data.nav %}
+        <a href= "{{item.link}}" rel="noopener" target="_blank"> <img src="assets/images/icons/{{item.name}}.svg" class="icon" alt="{{item.name}}"></a>
+    {% endfor %}
+</nav>
