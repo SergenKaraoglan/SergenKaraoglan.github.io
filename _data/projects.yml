@@ -1,4 +1,4 @@
-- name: trex
+- name: t_rex_runner_touchless_interface
   title: T-Rex Runner + Deep Learning
   technologies:
     - Javascript
