@@ -10,7 +10,7 @@
     using a GUI that can then be used to play T-rex runner with a touchless interface.
   demo: true
 
-- name: reaction_timer
+- name: Reaction_timer
   title: Reaction timer
   technologies:
     - Javascript
@@ -20,10 +20,10 @@
   demo: true
 
 - name: math_benchmark
-  title: math benchmark
+  title: Math benchmark
   technologies:
     - Javascript
     - HTML
     - CSS
-  description:
+  description: Outputs equations using arithmetic of users choice and number of digits per number for testing mental mental math speed and accuracy.
   demo: true
