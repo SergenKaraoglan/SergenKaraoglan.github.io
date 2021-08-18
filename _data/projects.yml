@@ -10,7 +10,7 @@
     using a GUI that can then be used to play T-rex runner with a touchless interface.
   demo: true
 
-- name: Reaction_timer
+- name: reaction_timer
   title: Reaction timer
   technologies:
     - Javascript
