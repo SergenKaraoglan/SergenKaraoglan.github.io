@@ -19,8 +19,8 @@
   description: A simple project that tests reaction speed and records average and best score.
   demo: true
 
-- name: math_benchmark
-  title: Math benchmark
+- name: mental_arithmetic_speed_test
+  title: Mental arithmetic speed test
   technologies:
     - Javascript
     - HTML
