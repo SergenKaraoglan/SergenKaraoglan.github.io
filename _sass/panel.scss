@@ -14,13 +14,13 @@
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     gap: 7px;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(30px, auto);
-    //align-content: space-evenly;
     align-content: space-between;
     align-items: center;
+    justify-items: center;
 }
 
 .technology{
@@ -48,7 +48,7 @@ img{
     margin: 8px;
     text-decoration: none;
     display: block;
-    //position:fixed;
+    width: 150px;
 }
 
 .links > a:hover{
