@@ -1,13 +1,9 @@
-:root{
-    --coloumn_count: repeat(2, 1fr);
-}
-
 .wrapper{
     display: grid;
-    grid-template-columns: var(--coloumn_count);
+    grid-template-columns: repeat(auto-fill, minmax(350px, auto));
     gap: 30px;
     padding: 20px;
-    grid-auto-rows: minmax(300px, auto);
+    
 }
 .card{
     display: grid;
@@ -21,6 +17,13 @@
     align-content: space-between;
     align-items: center;
     justify-items: center;
+
+    /*
+    border-left-style: double;
+    border-width: thin;
+    border-color: black;
+    border-bottom-style: double;
+    */
 }
 
 .technology{
